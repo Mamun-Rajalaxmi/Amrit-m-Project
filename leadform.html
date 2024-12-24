@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Form Modal -->
+<div class="modal fade" id="leadFormModal" tabindex="-1" aria-labelledby="leadFormModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="leadFormModalLabel">Lead Information Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="leadForm">
+          <div class="row">
+            <!-- Section 1: Lead and Contact Information -->
+            <div class="col-12 mb-3">
+              <h5>Lead & Contact Information</h5>
+            </div>
+            <!-- Lead Name -->
+            <div class="col-md-6 mb-3">
+              <label for="leadName" class="form-label">Lead Name</label>
+              <input type="text" id="leadName" class="form-control" placeholder="Enter lead name" required>
+            </div>
+            <!-- Lead Date -->
+            <div class="col-md-6 mb-3">
+              <label for="leadDate" class="form-label">Lead Date</label>
+              <input type="date" id="leadDate" class="form-control" required>
+            </div>
+            <!-- Phone Numbers -->
+            <div class="col-md-6 mb-3">
+              <label for="phone1" class="form-label">1st Phone Number</label>
+              <input type="tel" id="phone1" class="form-control" placeholder="Enter phone number" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="phone2" class="form-label">2nd Phone Number</label>
+              <input type="tel" id="phone2" class="form-control" placeholder="Enter phone number">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="phone3" class="form-label">3rd Phone Number</label>
+              <input type="tel" id="phone3" class="form-control" placeholder="Enter phone number">
+            </div>
+            <!-- Emails -->
+            <div class="col-md-6 mb-3">
+              <label for="email1" class="form-label">1st Email</label>
+              <input type="email" id="email1" class="form-control" placeholder="Enter email" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="email2" class="form-label">2nd Email</label>
+              <input type="email" id="email2" class="form-control" placeholder="Enter email">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="email3" class="form-label">3rd Email</label>
+              <input type="email" id="email3" class="form-control" placeholder="Enter email">
+            </div>
+
+            <!-- Section 2: Address and Company Details -->
+            <div class="col-12 mb-3">
+              <h5>Address & Company Information</h5>
+            </div>
+            <!-- City -->
+            <div class="col-md-6 mb-3">
+              <label for="city" class="form-label">City</label>
+              <input type="text" id="city" class="form-control" placeholder="Enter city" required>
+            </div>
+            <!-- State -->
+            <div class="col-md-6 mb-3">
+              <label for="state" class="form-label">State</label>
+              <input type="text" id="state" class="form-control" placeholder="Enter state" required>
+            </div>
+            <!-- Country -->
+            <div class="col-md-6 mb-3">
+              <label for="country" class="form-label">Country</label>
+              <input type="text" id="country" class="form-control" placeholder="Enter country" required>
+            </div>
+            <!-- Company Name -->
+            <div class="col-md-6 mb-3">
+              <label for="companyName" class="form-label">Company Name</label>
+              <input type="text" id="companyName" class="form-control" placeholder="Enter company name" required>
+            </div>
+            <!-- Business Type -->
+            <div class="col-md-6 mb-3">
+              <label for="businessType" class="form-label">Business Type</label>
+              <input type="text" id="businessType" class="form-control" placeholder="Enter business type" required>
+            </div>
+            <!-- Website -->
+            <div class="col-md-6 mb-3">
+              <label for="website" class="form-label">Website</label>
+              <input type="url" id="website" class="form-control" placeholder="Enter website URL">
+            </div>
+            <!-- Interest In -->
+            <div class="col-md-6 mb-3">
+              <label for="interestIn" class="form-label">Interest In</label>
+              <input type="text" id="interestIn" class="form-control" placeholder="Enter interest in" required>
+            </div>
+<div class="col-6"> </div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+<div class="col-6"></div>
+            <!-- Section 3: Remarks -->
+            <div class="col-12 mb-3">
+              <h5>Remarks</h5>
+            </div>
+            <!-- Remarks -->
+            <div class="col-12 mb-3">
+              <label for="remarks" class="form-label">Remarks</label>
+              <textarea id="remarks" class="form-control" placeholder="Enter remarks" rows="4"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

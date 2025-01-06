@@ -12,7 +12,7 @@
 </head>
 <style>
   body{
-  background-image: url(bg1.jpg);
+  background-image: url(bg.avif);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -27,7 +27,15 @@
   text-decoration: underline;
 
 }
-
+.button{
+    color:#fff;
+    background-color: #4db5ea;
+ }
+ .secondary { 
+  background-image: url(bg1.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 </style>
 
 <body>
@@ -48,7 +56,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
-            </li>
+            </li> 
             <li class="nav-item">
               <a class="nav-link " href="product.html">Product</a>
             </li>
@@ -147,9 +155,9 @@
           </div>
 
           <div class="col-lg-6 col-md-12 col-sm-12">
-            <h5 class="section-title ff-secondary mt-4 fw-normal text-light fs-1">About Us</h5>
-            <h1 class="mt2 text-light">Welcome to Amrit'm <i class="fa-solid fa-cow"></i></h1>
-            <p class="mt2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos
+            <h5 class="section-title ff-secondary mt-4 fw-normal text-dark fs-1">About Us</h5>
+            <h1 class="mt2 text-secondary">Welcome to Amrit'm <i class="fa-solid fa-cow"></i></h1>
+            <p class="mt2 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos
               laudantium architecto consectetur vero deleniti debitis nobis totam sint, pariatur eaque, ipsum molestias,
               voluptates perspiciatis? Exercitationem, officia aspernatur tenetur adipisci a eum inventore. Saepe
               laudantium, eaque, mollitia voluptatibus similique quasi delectus distinctio porro reprehenderit aperiam
@@ -163,25 +171,25 @@
             </p>
             <div class="row g-4 mb-2">
               <div class="col-sm-6 mt-2">
-                <div class="d-flex align-items-center border-start border-5 border-light px-3">
-                  <h1 class="display-5 text-light mb-0" data-toggle="counter-up">10<h1>
+                <div class="d-flex align-items-center border-start border-5 border-dark px-3">
+                  <h1 class="display-5 text-dark mb-0" data-toggle="counter-up">10<h1>
                       <div class="ps-4">
-                        <p class="mb-0 text-white">Years of</p>
-                        <h6 class="text-uppercase mb-0 text-white">Experience</h6>
+                        <p class="mb-0 text-dark">Years of</p>
+                        <h6 class="text-uppercase mb-0 text-dark">Experience</h6>
                       </div>
                 </div>
               </div>
               <div class="col-sm-6 mt-2">
-                <div class="d-flex align-items-center border-start border-5 border-light px-3">
+                <div class="d-flex align-items-center border-start border-5 border-dark px-3">
 
                   <div class="ps-4">
-                    <p class="mb-0 text-white">Popular</p>
-                    <h6 class="text-uppercase mb-0 text-white">Products</h6>
+                    <p class="mb-0 text-dark">Popular</p>
+                    <h6 class="text-uppercase mb-0 text-dark">Products</h6>
                   </div>
                 </div>
               </div>
             </div>
-            <a class="btn btn-light py-3 px-5 my-2" href="">Read More</a>
+            <a class="button  btn btn-info py-3 px-5 my-2" href="">Read More</a>
           </div>
         </div>
       </div>
@@ -458,7 +466,7 @@
         var a = document.getElementById("chat-input");
         if ("" != a.value) {
           var b = $("#get-number").text(),
-            c = document.getElementById("chat-input").value,
+            c = document.getElementById("chat-input").value, 
             d = "https://web.whatsapp.com/send",
             e = b,
             f = "&text=" + c;
@@ -468,7 +476,7 @@
             )
           )
             var d = "whatsapp://send";
-          var g = d + "?phone=+31 6 29320129" + e + f;
+          var g = d + "?phone=+91 7855865181" + e + f;
           window.open(g, "_blank");
         }
       }),

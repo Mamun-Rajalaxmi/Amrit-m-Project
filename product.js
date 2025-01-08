@@ -1,45 +1,38 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // JSON data
     const data = {
-      "hero": {
-        "video": "https://cdn.pixabay.com/video/2016/08/08/4315-178218581_large.mp4",
-        "title": "Milk is a good source of nutrients and contains water, protein, fat, carbohydrates, vitamins, and minerals",
-        "subtitle": "Crafting fresh, Milk, Paneer, Curd, and Ghee, Butter, ice-cream made from milk",
-        "buttonText": "discover menu"
-      },
-      "products": [
-        {
-          "name": "Amrit'm Curd",
-          "image": "dahi1.jpg",
-          "tags": ["Sweet Curd", "Whole Milk curd", "SugarFree Sweet Curd"]
-        },
-        {
-          "name": "Amrit'm Lassi",
-          "image": "lassi.jpg",
-          "tags": ["Aam lassi", "Kesar Lassi", "Masala Lassi"]
-        },
-        {
-          "name": "Amrit'm Butter",
-          "image": "butter.jpg",
-          "tags": ["Butter", "Salted Butter"]
-        },
-        {
-          "name": "Amrit'm Paneer",
-          "image": "paneer1.jpg",
-          "tags": ["Paneer"]
-        },
-        {
-          "name": "Amrit'm Ice-Cream",
-          "image": "ice-cream1.jpg",
-          "tags": ["Vanilla Ice-Cream", "Kulfi"]
-        },
-        {
-          "name": "Amrit'm Ghee",
-          "image": "gheep.jpg",
-          "tags": ["Pure Ghee"]
+        "container": {
+          "class": "container mt-4",
+          "hero": {
+            "video": {
+              "class": "vjs-tech w-100",
+              "id": "vjs_video_3_html5_api",
+              "muted": true,
+              "autoplay": true,
+              "loop": true,
+              "source": {
+                "src": "https://cdn.pixabay.com/video/2016/08/08/4315-178218581_large.mp4",
+                "type": "video/mp4"
+              }
+            },
+            "text": {
+              "left": {
+                "h1": {
+                  "class": "fs-4",
+                  "content": "Milk is a good source of nutrients and contains water, protein, fat, carbohydrates, vitamins, and minerals"
+                },
+                "h5": {
+                  "content": "Crafting fresh, Milk, Paneer, Curd, and Ghee, Butter, ice-cream made from milk"
+                },
+                "button": {
+                  "class": "callto",
+                  "content": "discover menu"
+                }
+              }
+            }
+          }
         }
-      ]
-    };
+      }
+      
   
     // Insert Hero Section
     const heroContainer = document.querySelector('.hero');

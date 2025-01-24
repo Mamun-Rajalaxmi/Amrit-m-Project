@@ -200,7 +200,7 @@ a:visited {
     display: flex;
     font-weight: 400;
     justify-content: space-between;
-    z-index: 98;
+    z-index: 99999;
     bottom: 25px;
     left: 30px;
     font-size: 15px;
